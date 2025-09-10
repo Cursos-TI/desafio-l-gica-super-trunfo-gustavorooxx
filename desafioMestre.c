@@ -124,8 +124,8 @@ int main()
         case 4:
             printf("Atributo 2 você escolheu: %s\n", atributo4);
             printf("%s: %d - %s: %d\n", nomePais1, numero_pontos_turisticos1, nomePais2, numero_pontos_turisticos2);
-            resultadoCarta1 += populacao1;
-            resultadoCarta2 += populacao2;
+            resultadoCarta1 += numero_pontos_turisticos1;
+            resultadoCarta2 += numero_pontos_turisticos2;
             break;
         case 5:
             printf("Atributo 2 você escolheu: %s\n", atributo5);
