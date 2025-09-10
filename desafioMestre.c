@@ -143,6 +143,7 @@ int main()
     printf("Soma dos atributos do(a) %s foi: %.2lf\n", nomePais1, resultadoCarta1);
     printf("Soma dos atributos do(a) %s foi: %.2lf\n", nomePais2, resultadoCarta2);
 
+    //Carta vencedora
     if (resultadoCarta1 > resultadoCarta2)
     {
         printf("%s vence a rodada!\n", nomePais1);
